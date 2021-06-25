@@ -17,5 +17,5 @@
 
 sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 mkdir -p files/etc/config
-wget https://raw.githubusercontent.com/PyzmxU/OpenWrt-x86_64-firmware/main/firewall files/etc/config/firewall
-wget https://raw.githubusercontent.com/PyzmxU/OpenWrt-x86_64-firmware/main/network  files/etc/config/network
+wget https://raw.githubusercontent.com/PyzmxU/OpenWrt-x86_64-firmware/main/firewall -O files/etc/config/firewall
+wget https://raw.githubusercontent.com/PyzmxU/OpenWrt-x86_64-firmware/main/network -O files/etc/config/network
