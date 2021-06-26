@@ -8,7 +8,7 @@ LAN口 192.168.1.1
 3.没DHCP的VPS  
 修改network 改WAN口为VPS的ip gateway netmask后编译  
 
-4.已知编译出错插件
+4.已知编译出错插件  
 luci-theme-argon  选择argon主题后不选  
 ppp-mod-pppoe        
 transmission-web （不选，与transmission-web-control冲突）  
