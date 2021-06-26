@@ -1,3 +1,10 @@
+
+插件不要全部选，会出错
+修改 WAN口DHCP 
+LAN口 192.168.1.1
+适合VPS dd
+
+===============================================================================================================
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
