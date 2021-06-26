@@ -16,6 +16,10 @@ samba36-server(不和samba4组件共存)
 samba与samba4不能共存，取消samba需要先取消autosamba  
 
 
+
+如果增加软件源去掉diy-part1.sh注释 -》 没DHCP修改network -》ACTIONS -Build OpenWrt -run workflow ssh true -》 ssh登录-》cd openwrt && make menuconfig 选EXT4 软件 
+
+
 ===============================================================================================================
 # Actions-OpenWrt
 
