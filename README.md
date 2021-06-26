@@ -1,8 +1,8 @@
 
 1.插件不要全部选，会编译出错  
 
-2,适合VPS dd  openwrt
-修改 WAN口DHCP   
+2.适配VPS dd  openwrt
+已经 修改 WAN口为DHCP   
 LAN口 192.168.1.1  
 3.没DHCP的VPS  
 修改network后编译  
