@@ -1,5 +1,5 @@
 
-1.插件不要全部选，会编译出错  
+1.插件不要全部选，会编译出错  make menuconfig选EXT4
 
 2.为适配VPS dd  openwrt
 已经 修改 WAN口为DHCP   
@@ -7,6 +7,13 @@ LAN口 192.168.1.1
 
 3.没DHCP的VPS  
 修改network 改WAN口为VPS的ip gateway netmask后编译  
+
+4.已知编译出错插件
+luci-theme-argon  选择argon主题后不选
+ppp-mod-pppoe     
+transmission-web （不选，与transmission-web-control冲突）
+samba36-server(不和samba4组件共存)
+samba与samba4不能共存，取消samba需要先取消autosamba
 
 
 ===============================================================================================================
