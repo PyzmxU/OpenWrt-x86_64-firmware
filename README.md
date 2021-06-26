@@ -9,11 +9,11 @@ LAN口 192.168.1.1
 修改network 改WAN口为VPS的ip gateway netmask后编译  
 
 4.已知编译出错插件
-luci-theme-argon  选择argon主题后不选
-ppp-mod-pppoe     
-transmission-web （不选，与transmission-web-control冲突）
-samba36-server(不和samba4组件共存)
-samba与samba4不能共存，取消samba需要先取消autosamba
+luci-theme-argon  选择argon主题后不选  
+ppp-mod-pppoe        
+transmission-web （不选，与transmission-web-control冲突）  
+samba36-server(不和samba4组件共存)  
+samba与samba4不能共存，取消samba需要先取消autosamba  
 
 
 ===============================================================================================================
