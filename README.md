@@ -1,5 +1,5 @@
 
-1.插件不要全部选，会编译出错  make menuconfig选EXT4
+1.插件不要全部选，会编译出错    make menuconfig选EXT4    软件太多修改默认根目录160大小
 
 2.为适配VPS dd  openwrt
 已经 修改 WAN口为DHCP   
@@ -16,10 +16,10 @@ samba36-server(不和samba4组件共存)
 samba与samba4不能共存，取消samba需要先取消autosamba  
 
 
+5.流程图
+如果增加软件源去掉diy-part1.sh注释 -》 vps没DHCP修改network -》ACTIONS -Build OpenWrt -run workflow ssh true -》 
 
-如果增加软件源去掉diy-part1.sh注释 -》 没DHCP修改network -》ACTIONS -Build OpenWrt -run workflow ssh true -》 
-
-ssh登录-》cd openwrt && make menuconfig 选EXT4 软件 
+ssh登录-》cd openwrt && make menuconfig 选EXT4 软件包 
 
 
 ===============================================================================================================
