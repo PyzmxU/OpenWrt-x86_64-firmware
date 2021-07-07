@@ -16,9 +16,9 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default #软件源
 #sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default   #软件源
-sed -i '$a src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb.git' feeds.conf.default   #软件源
-sed -i '$a src-git luci-app-vssr https://github.com/jerrykuku/luci-app-vssr.git' feeds.conf.default   #软件源
-sed -i '$a src-git luci-theme-argon https://github.com/jerrykuku/luci-theme-argon.git' feeds.conf.default   #软件源
+#sed -i '$a src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb.git' feeds.conf.default   #软件源
+#sed -i '$a src-git luci-app-vssr https://github.com/jerrykuku/luci-app-vssr.git' feeds.conf.default   #软件源
+#sed -i '$a src-git luci-theme-argon https://github.com/jerrykuku/luci-theme-argon.git' feeds.conf.default   #软件源
 
 
 #sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default   #软件很多
