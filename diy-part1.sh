@@ -15,7 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default #软件源
-#sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default   #软件源
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default   #软件源
 #sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default   #软件很多
 
 #mkdir -p files/etc/config  
